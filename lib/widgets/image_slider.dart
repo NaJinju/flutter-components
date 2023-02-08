@@ -9,9 +9,9 @@ class ImageSlider extends StatefulWidget {
 
 class _ImageSliderState extends State<ImageSlider> {
   final List<String> imageList = [
-    'https://s3.ap-northeast-2.amazonaws.com/com.liveschole/common/1675813400118.png',
-    'https://s3.ap-northeast-2.amazonaws.com/com.liveschole/common/1675813405511.png',
-    'https://s3.ap-northeast-2.amazonaws.com/com.liveschole/common/1675813383738.png',
+    'https://i.ytimg.com/vi/-WOngp71aM8/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAKFCG95F_evn0RamtEZOjICsnhNg',
+    'https://i.ytimg.com/vi/r-6qGFhRWr4/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDwHS7B4N0v-hoZaeCFU-Pi_TkcOA',
+    'https://i.ytimg.com/vi/dN8MQpcW_P4/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCaAnqY6jgbIVlYZZIwyNi3CN7PRw',
   ];
   int _currentPage = 0;
   late PageController _controller;
@@ -43,7 +43,7 @@ class _ImageSliderState extends State<ImageSlider> {
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
         SizedBox(
-          height: 155,
+          height: 200,
           child: PageView.builder(
             controller: _controller,
             itemCount: imageList.length,

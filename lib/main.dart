@@ -42,7 +42,7 @@ class MyApp extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 Text(
-                  '유목민의 시그널 리포트',
+                  'ChatGPT & flutter',
                   style: TextStyle(
                     fontWeight: FontWeight.w700,
                   ),
